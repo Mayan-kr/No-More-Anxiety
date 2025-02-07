@@ -1,0 +1,10 @@
+.AppContainer {
+    height: auto; /* Full viewport height */
+    width: 100vw;
+    background-image: url('src/assets/BG6.jpg');
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(114, 154, 89);
+}

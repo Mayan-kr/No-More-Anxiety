@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Aelyn';
+    src: url('../fonts/Aelyn.otf') format('truetype'),
+  }
+ 
+  @font-face {
+    font-family: 'Rockybilly';
+    src: url('../fonts/Rockybilly.ttf') format('truetype'),
+  }
+
+ #logo {
+    position: relative;
+    color:#b08968; text-align: center;
+    font-style: oblique;
+    background-color: #ecdfb1;
+    height:10vh; 
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    z-index: 5;
+    
+  
+  }
+
+  #logo h1 {
+    font-family: 'Aelyn', sans-serif;
+    font-size: 2.7em;
+    position: relative;
+    translate: 0 -25%;
+  }
+
+  #logo h1:hover {
+    font-family: 'Rockybilly', sans-serif;
+    font-size: 1em;
+    translate:0 -15%;
+    text-shadow: 2px 2px 10px 1px #ffffff00;
+    transition: font-family 1s, font-size 0.5s, text-shadow 0.5s;
+  }
+  
+  
+  

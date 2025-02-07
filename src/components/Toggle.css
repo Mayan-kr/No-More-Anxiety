@@ -1,0 +1,19 @@
+.ToggleButton {
+    position: fixed;
+    right: 1vw;
+    top: 13vh;
+    z-index:10;
+    background-color:#c0818a;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:monospace;
+    border: 2px solid rgb(90, 105, 120);
+    border-radius: 20px;
+    padding: 0.4%;
+}
+
+.ToggleButton:hover {
+    transform: scale(1.2);
+    background-color: #d8b8bd;
+    
+}
