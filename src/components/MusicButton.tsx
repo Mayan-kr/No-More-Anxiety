@@ -23,7 +23,7 @@ const AudioToggle: React.FC = () => {
 
       <audio
         ref={audioRef}
-        src="No-More-Anxiety/Relaxation.mp3"
+        src="/Relaxation.mp3"
       />
     </div>
   );
