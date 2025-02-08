@@ -1,7 +1,7 @@
 .AppContainer {
     height: auto; /* Full viewport height */
     width: 100vw;
-    background-image: url('src/assets/BG6.jpg');
+    background-image: url('./assets/BG6.jpg');
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
