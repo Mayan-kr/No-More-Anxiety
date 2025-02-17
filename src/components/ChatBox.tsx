@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ChatBox.css"; // Standard CSS file
+import "./ChatBox.css";
 
 const Chatbox: React.FC = () => {
   const [messages, setMessages] = useState<{ user: string; text: string }[]>([]);

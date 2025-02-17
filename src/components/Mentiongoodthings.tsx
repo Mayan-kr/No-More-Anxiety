@@ -18,7 +18,7 @@ const GratitudeComponent: React.FC = () => {
   };
 
   return (
-    <div className="container">
+    <div className="Mentionboxcontainer">
       {!submitted ? (
         <div className="form-container">
           <h2>Mention 3 good things in your life?</h2>
